@@ -1,0 +1,25 @@
+main {
+  height: 90vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+span {
+  text-align: center;
+  font-size: 40px;
+  color: pink;
+}
+
+main button {
+  font-size: 30px;
+  padding: 10px;
+  background-color: white;
+  border: solid black;
+  border-radius: 20%;
+}

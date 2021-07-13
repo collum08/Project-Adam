@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+.top {
+  border-top: gray solid 3px;
+  border-bottom: gray solid 3px;
+  padding: 3vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav h1 {
+  color: blue;
+}
+
+.nav-link {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.nav-link li {
+  list-style-type: none;
+}
+
+.nav-link li a {
+  text-decoration: none;
+  font-size: 3vh;
+  color: blue;
+}
+
+.main {
+  height: 50vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-mode {
+  background-color: gray;
+  color: white;
+}
+
+.main button {
+  font-size: 30px;
+  padding: 10px;
+  background-color: white;
+  border: solid black;
+  border-radius: 20%;
+}
